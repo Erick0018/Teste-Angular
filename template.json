@@ -1,0 +1,31 @@
+{
+    "template": [
+        {
+            "id": 1,
+            "nome": "California, EUA",
+            "foto": "foto1.jpeg",
+            "descricao1": "6 diárias",
+            "descricao2": "✔ 3 Quartos",
+            "descricao3": "✔ Passagem Aérea",
+            "salario":2.516
+        },
+        {
+            "id": 2,
+            "nome": "Nova Iorque, EUA",
+            "foto": "foto2.jpeg",
+            "descricao1": "3 diárias",
+            "descricao2": "✔ 1 Quarto",
+            "descricao3": "✔ Passagem Aérea",
+            "salario": 3.566
+        },
+        {
+            "id": 3,
+            "nome": "Los Angeles, EUA",
+            "foto": "foto3.jpeg",
+            "descricao1": "5 diárias",
+            "descricao2": "✔ 2 Quartos",
+            "descricao3": "✔ Passagem Aérea",
+            "salario": 3.189
+        }
+    ]
+}

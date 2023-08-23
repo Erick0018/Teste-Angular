@@ -1,0 +1,87 @@
+.cores {
+    height: 200px;
+    position: relative;
+   
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#lb {
+    opacity: 0.7;
+    
+}
+
+#lbt {
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+
+
+#bt{
+    opacity: 0.96;
+}
+
+.box {
+height: 200px;
+position: relative;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 35%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+font-size: 20px;
+font-weight: bold;
+width: 670px;
+height: 400px;
+background: #085a9e9e;
+border: 4px solid black;
+border-radius: 0 .9rem .9rem .9rem;
+
+background: cover; 
+justify-content: center;
+opacity: 0.9;
+}
+
+a.animated-button.thar-two {
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #000000;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	left: -400%;
+}
+a.animated-button.thar-two:hover {
+	color: rgb(255, 255, 255) !important;
+	text-shadow: ntwo;
+}
+a.animated-button.thar-two:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.animated-button.thar-two:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: rgb(0, 0, 0) !important;
+	background: #000000;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    
+}
+
+.form {
+	border: 2px solid lightgray;
+}

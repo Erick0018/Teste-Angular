@@ -1,0 +1,20 @@
+<section class="ajustes">
+    <div *ngFor="let templates of template">
+
+        <div class="card" style="width: 19rem;">
+            <a href="" routerLink="/california"><img src="assets\img\template\{{templates.foto}}" onclick="abrirModal()" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p>________</p>
+                <h5 class="card-title">Pacote de viagem: {{templates.id}}</h5>
+                <p>_</p>
+                <h5 class="card-title">Passagem para: {{templates.nome}}</h5>
+                <p class="card-text">Descrição da Passagem: {{templates.descricao1}}</p>
+                <p class="card-text"> {{templates.descricao2}}</p>
+                <p class="card-text"> {{templates.descricao3}}</p>
+                <p class="card-text">Valor: R$ {{templates.salario}},00</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
